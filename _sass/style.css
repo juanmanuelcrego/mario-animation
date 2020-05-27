@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background: #1e1e1e;
+}
+
+body h1 {
+    font-family: "Press Start 2P", cursive;
+    padding: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.mario {
+    width: 750px;
+    height: 950px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#ff0000, #ff0000) 250px 150px/250px 50px, linear-gradient(#ff0000, #ff0000) 200px 200px/450px 50px, linear-gradient( to right, #a56b0d 150px, #ffa600 125px, #ffa600 250px, #a56b0d 250px, #a56b0d 300px, #ffa600 275px, #ffa600) 200px 250px/350px 50px, linear-gradient( to right, #a56b0d 50px, #ffa600 50px, #ffa600 100px, #a56b0d 100px, #a56b0d 150px, #ffa600 150px, #ffa600 300px, #a56b0d 300px, #a56b0d 350px, #ffa600 350px, #ffa600) 150px 300px/500px 50px, linear-gradient( to right, #a56b0d 50px, #ffa600 50px, #ffa600 100px, #a56b0d 100px, #a56b0d 200px, #ffa600 200px, #ffa600 350px, #a56b0d 350px, #a56b0d 400px, #ffa600 350px, #ffa600) 150px 350px/550px 50px, linear-gradient( to right, #a56b0d 100px, #ffa600 100px, #ffa600 200px, #ffa600 300px, #a56b0d 300px, #a56b0d 500px, #ffa600 200px, #ffa600 350px, #a56b0d 350px, #a56b0d 400px, #ffa600 350px, #ffa600) 150px 400px/500px 50px, linear-gradient(#ffa600, #ffa600) 250px 450px/350px 50px, linear-gradient( to right, #a56b0d 100px, #ff0000 100px, #ff0000 150px, #a56b0d 150px) 200px 500px/300px 50px, linear-gradient( to right, #a56b0d 150px, #ff0000 150px, #ff0000 200px, #a56b0d 200px, #a56b0d 300px, #ff0000 300px, #ff0000 350px, #a56b0d 350px) 150px 550px/500px 50px, linear-gradient( to right, #a56b0d 200px, #ff0000 200px, #ff0000 400px, #a56b0d 400px) 100px 600px/600px 50px, linear-gradient( to right, #ffa600 100px, #a56b0d 100px, #a56b0d 150px, #ff0000 150px, #ff0000 200px, #ffa600 200px, #ffa600 250px, #ff0000 250px, #ff0000 350px, #ffa600 350px, #ffa600 400px, #ff0000 400px, #ff0000 450px, #a56b0d 450px, #a56b0d 500px, #ffa600 500px) 100px 650px/600px 50px, linear-gradient( to right, #ffa600 150px, #ff0000 150px, #ff0000 450px, #ffa600 450px) 100px 700px/600px 50px, linear-gradient( to right, #ffa600 100px, #ff0000 100px, #ff0000 500px, #ffa600 500px) 100px 750px/600px 50px, linear-gradient( to right, transparent 100px, #ff0000 100px, #ff0000 250px, transparent 250px, transparent 350px, #ff0000 350px, #ff0000 500px, transparent 500px) 100px 800px/600px 50px, linear-gradient( to right, transparent, 50px, #a56b0d 50px, #a56b0d 200px, transparent 200px, transparent 400px, #a56b0d 400px, #a56b0d 550px, transparent 550px) 100px 850px/600px 50px, linear-gradient( to right, #a56b0d 50px, #a56b0d 200px, transparent 200px, transparent 400px, #a56b0d 400px, #a56b0d 550px) 100px 900px/600px 50px;
+    background-repeat: no-repeat;
+}
+
+.mario:hover {
+    background: linear-gradient(#ffa600, #ffa600) 600px 0px/150px 50px, linear-gradient( to right, #ff0000 250px, transparent 250px, transparent 350px, #ffa600 350px) 250px 50px/500px 50px, linear-gradient(to right, #ff0000 450px, #ffa600 450px, #ffa600 550px) 200px 100px/550px 50px, linear-gradient( to right, #a56b0d 150px, #ffa600 125px, #ffa600 250px, #a56b0d 250px, #a56b0d 300px, #ffa600 300px, #ffa600 350px, transparent 350px, transparent 400px, #a56b0d 350px) 200px 150px/550px 50px, linear-gradient( to right, #a56b0d 50px, #ffa600 50px, #ffa600 100px, #a56b0d 100px, #a56b0d 150px, #ffa600 150px, #ffa600 300px, #a56b0d 300px, #a56b0d 350px, #ffa600 350px, #ffa600 500px, #a56b0d 500px) 150px 200px/600px 50px, linear-gradient( to right, #a56b0d 50px, #ffa600 50px, #ffa600 100px, #a56b0d 100px, #a56b0d 200px, #ffa600 200px, #ffa600 350px, #a56b0d 350px, #a56b0d 400px, #ffa600 350px, #ffa600 550px, #a56b0d 550px) 150px 250px/600px 50px, linear-gradient( to right, #a56b0d 100px, #ffa600 100px, #ffa600 200px, #ffa600 300px, #a56b0d 300px, #a56b0d 500px, #ffa600 200px, #ffa600 350px, #a56b0d 350px, #a56b0d 550px, transparent 550px) 150px 300px/600px 50px, linear-gradient( to right, #ffa600 300px, #ffa600 350px, #a56b0d 350px, #a56b0d 400px) 250px 350px/400px 50px, linear-gradient( to right, #a56b0d 200px, #ff0000 200px, #ff0000 250px, #a56b0d 250px, #a56b0d 400px, #ff0000 400px, #ff0000 450px, #a56b0d 400px) 100px 400px/500px 50px, linear-gradient( to right, #a56b0d 300px, #ff0000 300px, #ff0000 350px, #a56b0d 350px, #a56b0d 500px, #ff0000 500px, #ff0000 550px, transparent 550px, transparent 650px, #a56b0d 650px) 50px 450px/700px 50px, linear-gradient( to right, #ffa600 100px, #a56b0d 100px, #a56b0d 350px, #ff0000 350px, #ff0000 600px, transparent 600px, transparent 700px, #a56b0d 700px) 0px 500px/750px 50px, linear-gradient( to right, #ffa600 150px, transparent 150px, transparent 250px, #ff0000 250px, #ff0000 300px, #a56b0d 300px, #a56b0d 350px, #ff0000 350px, #ff0000 450px, #ffa600 450px, #ffa600 500px, #ff0000 500px, #ff0000 550px, #ffa600 550px, #ffa600 600px, #ff0000 600px, #ff0000 650px, #a56b0d 650px) 0px 550px/750px 50px, linear-gradient( to right, #ffa600 50px, transparent 50px, transparent 100px, #a56b0d 100px, #a56b0d 150px, transparent 150px, transparent 200px, #ff0000 200px, #ff0000 600px, #a56b0d 600px) 50px 600px/700px 50px, linear-gradient( to right, #a56b0d 150px, #ff0000 150px, #ff0000 550px, #a56b0d 550px) 100px 650px/650px 50px, linear-gradient( to right, #a56b0d 150px, #ff0000 150px) 50px 700px/450px 50px, linear-gradient( to right, #a56b0d 50px, transparent 50px, transparent 150px, #ff0000 150px) 50px 750px/300px 50px, linear-gradient( to right, #a56b0d 50px, #a56b0d 200px, transparent 200px, transparent 400px, #a56b0d 400px, #a56b0d 550px) 100px 1000px/600px 50px;
+    background-repeat: no-repeat;
+}
+
+
+/*# sourceMappingURL=style.css.map */
